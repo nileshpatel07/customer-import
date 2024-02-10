@@ -17,13 +17,5 @@
         "psr-4": {
             "Nilesh\\CustomerImport\\": ""
         }
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Nilesh/CustomerImport"
-            ]
-        ]
     }
 }
