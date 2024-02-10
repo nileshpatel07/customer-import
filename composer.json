@@ -1,0 +1,29 @@
+{
+    "name": "nispatel/customer-test-cli",
+    "description": "Magento 2 module for importing customers from CSV or JSON files.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.4||~8.0||~8.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nilesh\\CustomerImport\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Nilesh/CustomerImport"
+            ]
+        ]
+    }
+}
